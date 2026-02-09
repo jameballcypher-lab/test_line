@@ -1,0 +1,15 @@
+@"
+/vendor
+/node_modules
+/.env
+
+/storage/*.key
+/storage/logs/*
+/storage/framework/*
+/bootstrap/cache/*
+
+/database/database.sqlite
+
+# Docker
+mysql_data
+"@ | Out-File -Encoding utf8 .gitignore
