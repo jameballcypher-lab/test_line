@@ -25,4 +25,6 @@ docker exec -it laravel_app php artisan tinker
 ## GIT ##
 git add .
 git commit -m "add gitignore for laravel docker project"
+git status
 git push -u origin main
+
